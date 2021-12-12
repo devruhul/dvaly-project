@@ -11,7 +11,7 @@ const Footer = () => {
         Dvaly
       </Link>
 
-      <p class='py-2 text-gray-800  sm:py-0'>All rights reserved</p>
+      <p class='py-2 text-gray-800  sm:py-0'>All rights reserved  Ruhul Amin</p>
 
       <div class='flex -mx-2'>
         <a
