@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -6,8 +7,8 @@ const Navbar = () => {
     <div class='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
       <div class='relative flex items-center justify-between'>
         <div class='flex items-center'>
-          <a
-            href='/'
+          <Link
+            to='/'
             aria-label='Company'
             title='Company'
             class='inline-flex items-center mr-8'
@@ -30,28 +31,28 @@ const Navbar = () => {
             <span class='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
               Dvaly
             </span>
-          </a>
+          </Link>
         </div>
-        <ul class='flex items-center hidden space-x-8 lg:flex'>
+        <ul class=' items-center hidden space-x-8 lg:flex'>
           <li>
-            <a
-              href='/'
+            <Link
+              to='/shop'
               aria-label='Our product'
               title='Our product'
               class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
             >
-              Products
-            </a>
+              Shop
+            </Link>
           </li>
           <li>
-            <a
-              href='/'
+            <Link
+              to='/dashboard'
               aria-label='Our product'
               title='Our product'
               class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
             >
               Dashboard
-            </a>
+            </Link>
           </li>
         </ul>
         <div class='lg:hidden'>
@@ -81,8 +82,8 @@ const Navbar = () => {
               <div class='p-5 bg-white border rounded shadow-sm'>
                 <div class='flex items-center justify-between mb-4'>
                   <div>
-                    <a
-                      href='/'
+                    <Link
+                      to='/'
                       aria-label='Company'
                       title='Company'
                       class='inline-flex items-center'
@@ -105,7 +106,7 @@ const Navbar = () => {
                       <span class='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
                         Dvaly
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -126,24 +127,24 @@ const Navbar = () => {
                 <nav>
                   <ul class='space-y-4'>
                     <li>
-                      <a
-                        href='/'
+                      <Link
+                        to='/shop'
                         aria-label='Our product'
                         title='Our product'
                         class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                        Products
-                      </a>
+                        Shop
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href='/'
+                      <Link
+                        to='/dashboard'
                         aria-label='Our product'
                         title='Our product'
                         class='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                         Dashboard
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>

@@ -1,17 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
     <footer class='flex flex-col items-center justify-between px-6 py-4 bg-white sm:flex-row'>
-      <a href='#' class='text-xl font-bold text-gray-800  hover:text-gray-700 '>
+      <Link
+        to='/'
+        class='text-xl font-bold text-gray-800  hover:text-gray-700 '
+      >
         Dvaly
-      </a>
+      </Link>
 
       <p class='py-2 text-gray-800  sm:py-0'>All rights reserved</p>
 
       <div class='flex -mx-2'>
         <a
-          href='#'
+          href='https://github.com/devruhul'
           class='mx-2 text-gray-600  hover:text-gray-500 '
           aria-label='Reddit'
         >
@@ -26,7 +30,7 @@ const Footer = () => {
         </a>
 
         <a
-          href='#'
+          href='https://web.facebook.com/devruhulaminmahfuj/'
           class='mx-2 text-gray-600  hover:text-gray-500 '
           aria-label='Facebook'
         >
@@ -41,7 +45,7 @@ const Footer = () => {
         </a>
 
         <a
-          href='#'
+          href='https://github.com/devruhul'
           class='mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300'
           aria-label='Github'
         >

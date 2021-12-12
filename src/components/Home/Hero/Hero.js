@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
                 idea-sharing whereas long-term high-impact catalysts for change.
               </p>
               <button class='w-full px-3 py-2 mt-6 text-xs font-medium text-white uppercase transition-colors duration-200 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500'>
-                Shop Now
+                <Link to='/shop'> Shop Now</Link>
               </button>
             </div>
           </div>
