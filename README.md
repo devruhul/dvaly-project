@@ -1,6 +1,6 @@
-# Getting Started with breaking bad drama
+# Getting Started with dvaly
 
-This project is related breaking bad drama [Dvaly Project](https://dvaly-project.netlify.app/).
+This project is related online e-commerce website [Dvaly Project](https://dvaly-project.netlify.app/).
 
 ## Available Scripts
 
