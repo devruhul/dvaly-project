@@ -15,7 +15,7 @@ const Footer = () => {
 
       <div class='flex -mx-2'>
         <a
-          href='https://github.com/shakilahmedatik'
+          href='https://github.com/devruhul'
           class='mx-2 text-gray-600  hover:text-gray-500 '
           aria-label='Reddit'
         >
@@ -30,7 +30,7 @@ const Footer = () => {
         </a>
 
         <a
-          href='https://web.facebook.com/shakil.atik15'
+          href='https://web.facebook.com/devruhulaminmahfuj'
           class='mx-2 text-gray-600  hover:text-gray-500 '
           aria-label='Facebook'
         >
@@ -45,7 +45,7 @@ const Footer = () => {
         </a>
 
         <a
-          href='https://github.com/shakilahmedatik'
+          href='https://github.com/devruhul'
           class='mx-2 text-gray-600  hover:text-gray-500 dark:hover:text-gray-300'
           aria-label='Github'
         >
