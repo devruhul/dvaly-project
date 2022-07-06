@@ -13,7 +13,11 @@ const Dashboard = () => {
           <nav>
             <Link
               class='flex items-center px-4 py-2 text-gray-700 bg-gray-200 rounded-md dark:bg-gray-700 dark:text-gray-200'
+<<<<<<< HEAD
               to='/'
+=======
+              to='/dashboard'
+>>>>>>> d856b5584674c9d3eed33078575e2abea72bf4cd
             >
               <svg
                 class='w-5 h-5'

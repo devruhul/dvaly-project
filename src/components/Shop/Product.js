@@ -49,7 +49,10 @@ const Product = () => {
         'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
   ]
+<<<<<<< HEAD
   console.log(id)
+=======
+>>>>>>> d856b5584674c9d3eed33078575e2abea72bf4cd
   const filteredProduct = products.filter(product => product.id == id)
   return (
     <>
